@@ -1,0 +1,31 @@
+.main-container {
+  width: 100vw;
+  height: 600vh;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.img-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container img {
+  width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+
+*::-webkit-scrollbar {
+  width: 0 !important; /* Remove scrollbar width */
+  display: none !important; /* Hide scrollbar */
+}
